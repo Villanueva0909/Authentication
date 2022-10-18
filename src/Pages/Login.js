@@ -16,7 +16,7 @@ export function Login() {
     >
       <VStack spacing={4} align="flex-start" w="full">
         <VStack spacing={1} align={["flex-start", "center"]} w="full">
-          <Heading color="red">FullTankDevs</Heading>
+          <Heading color="#ED8936">FullTankDevs</Heading>
         </VStack>
       
       <FormControl>
@@ -29,15 +29,15 @@ export function Login() {
       </FormControl>
       <HStack w="full" justify="space-between">
         <Checkbox>Remember Me</Checkbox>
-        <Button variant="link" colorScheme="red">
+        <Button variant="link" colorScheme="orange">
           Forgot Password?
         </Button>
       </HStack>
         </VStack>
-        <Button mt={['5']} rounded='lg' colorScheme="red" w={['full']} alignSelf='center'>
+        <Button mt={['5']} rounded='lg' colorScheme="orange" w={['full']} alignSelf='center'>
           LOGIN
         </Button>
-        <Button mt={['5']} rounded='lg' colorScheme="red" w={['full']} alignSelf='center' variant='outline'>
+        <Button mt={['5']} rounded='lg' colorScheme="orange" w={['full']} alignSelf='center' variant='outline'>
           SIGNUP
         </Button>
     </Box>
