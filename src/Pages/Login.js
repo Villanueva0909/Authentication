@@ -9,13 +9,13 @@ export function Login() {
     <Box
       w={["full", "md"]}
       p={[8, 10]}
-      mt={[15, "vh"]}
+      mt={[10, "em"]}
       mx="auto"
       border={["none", "2px"]}
       borderColor={["", "gray.300"]}
       BorderRadius={20}
       rounded="lg"
-      boxShadow="2x1"
+      boxShadow="dark-lg"
     >
       <VStack spacing={4} align="flex-start" w="full">
         <VStack spacing={1} align={["flex-start", "center"]} w="full">
