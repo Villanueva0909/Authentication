@@ -77,6 +77,9 @@ export function Navbar() {
             fontWeight={400}
             variant={"link"}
             href={"#"}
+            _hover={{
+              color: "red.500",
+            }}
           >
             Sign In
           </Button>
@@ -85,10 +88,10 @@ export function Navbar() {
             fontSize={"sm"}
             fontWeight={600}
             color={"white"}
-            bg={"pink.400"}
+            bg={"red.500"}
             href={"#"}
             _hover={{
-              bg: "red",
+              bg: "red.200",
             }}
           >
             Sign Up
@@ -264,36 +267,6 @@ interface NavItem {
 }
 
 const NAV_ITEMS: Array<NavItem> = [
-  {
-    label: "Inspiration",
-    children: [
-      {
-        label: "Explore Design Work",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
-      },
-      {
-        label: "New & Noteworthy",
-        subLabel: "Up-and-coming Designers",
-        href: "#",
-      },
-    ],
-  },
-  {
-    label: "Find Work",
-    children: [
-      {
-        label: "Job Board",
-        subLabel: "Find your dream design job",
-        href: "#",
-      },
-      {
-        label: "Freelance Projects",
-        subLabel: "An exclusive list for contract work",
-        href: "#",
-      },
-    ],
-  },
   {
     label: "Learn Design",
     href: "#",

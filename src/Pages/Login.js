@@ -11,11 +11,11 @@ export function Login() {
       p={[8, 10]}
       mt={[15, "vh"]}
       mx="auto"
-      border={["none", "1px"]}
+      border={["none", "2px"]}
       borderColor={["", "gray.300"]}
       BorderRadius={20}
       rounded="lg"
-      boxShadow="dark-lg"
+      boxShadow="2x1"
     >
       <VStack spacing={4} align="flex-start" w="full">
         <VStack spacing={1} align={["flex-start", "center"]} w="full">
